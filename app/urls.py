@@ -16,8 +16,8 @@ router = DefaultRouter()
 router.register(r"usuarios", UserViewSet, basename="usuarios")
 router.register(r"acessorio", AcessorioViewSet, basename="acessorios")
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
-router.register(r"cor", CorViewSet, basename="cores")
-router.register(r"marca", MarcaViewSet, basename="marcas")
+router.register(r"cores", CorViewSet, basename="cores")
+router.register(r"marcas", MarcaViewSet, basename="marcas")
 
 
 
